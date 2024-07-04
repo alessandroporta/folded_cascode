@@ -1,0 +1,12 @@
+* C:\glade6_win64\Progetto\LTSpice\WL_estimation_pmos.asc
+I1 0 Vgs 11µ
+M1 0 0 Vgs Vgs P_PSM025 l=1u w=11u
+.model NMOS NMOS
+.model PMOS PMOS
+.lib C:\Users\alexp\AppData\Local\LTspice\lib\cmp\standard.mos
+* Stima (W/L) per M16:\nID16=11ua, (Vgs-Vt)=200mV, uCox=50e-6A/V^2\n(W/L)* = 2ID/(Vgs-Vt)^2 * 1/uCox = 11\n \nL=1um W=11um (risoluzione minima 0.05u)
+.op
+.lib PSM025.mos
+* Vt=0.5V Typ value for W/L = 40 (here we have 33)\n \n(Vgs-Vt)*=250mV\n \n(W/L)=51.56um -> 51.55um
+.backanno
+.end

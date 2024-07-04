@@ -1,0 +1,36 @@
+* C:\glade6_win64\Progetto\LTSpice\Folded_cascode_tb.asc
+XX1 N001 N003 N006 out N002 folded_cascode
+I1 0 N006 11µ
+V1 N002 0 2.5
+Vd N004 0 0
+Vc N005 0 1.25
+E1 N003 N005 N004 0 -0.5
+E2 N001 N005 N004 0 0.5
+
+* block symbol definitions
+.subckt folded_cascode Iin1 Iin2 Ib out Vdd
+M14 Ib Ib 0 0 N_PSM025 l=1u w=2.15u
+M15 Vk2 Vk2 Vdd Vdd P_PSM025 l=1u w=12.45u
+M13 Vk2 Ib 0 0 N_PSM025 l=1u w=6.45u
+M12 Vg16 Ib 0 0 N_PSM025 l=1u w=2.15u
+M16 Vg16 Vg16 Vdd Vdd P_PSM025 l=1u w=26u
+M3 Vs7 Vg16 Vdd Vdd P_PSM025 l=1u w=52u
+M4 Vs6 Vg16 Vdd Vdd P_PSM025 l=1u w=52u
+M1 Vs7 Iin1 Vg1 0 N_PSM025 l=1u w=2.15u
+M2 Vs6 Iin2 Vg1 0 N_PSM025 l=1u w=2.15u
+M5 Vg1 Ib 0 0 N_PSM025 l=1u w=4.3u
+M6 Vg8 Vk2 Vs6 Vdd P_PSM025 l=1u w=26u
+M7 out Vk2 Vs7 Vdd P_PSM025 l=1u w=26u
+M8 Vg8 Vg8 Vs8 0 N_PSM025 l=1u w=2.15u
+M9 out Vg8 Vs9 0 N_PSM025 l=1u w=2.15u
+M10 Vs8 Vg10 0 0 N_PSM025 l=1u w=2.15u
+M11 Vs9 Vg10 0 0 N_PSM025 l=1u w=2.15u
+.ends folded_cascode
+
+.model NMOS NMOS
+.model PMOS PMOS
+.lib C:\Users\alexp\AppData\Local\LTspice\lib\cmp\standard.mos
+.lib PSM025.mos
+.op
+.backanno
+.end

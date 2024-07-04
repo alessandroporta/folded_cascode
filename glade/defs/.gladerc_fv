@@ -1,0 +1,303 @@
+dbuPerUU 1000
+displayStart 0
+displayStop 99
+showAxes 1
+showLabels 1
+showPathCentre 1
+showPathOutline 1
+pathStyle 2
+displayLabelOrigins 0
+displayInstOrigins 0
+showMasterNames 0
+showInstNames 0
+filterShapes 1
+filterThreshold 5
+displayDottedGrid 1
+displayLineGrid 0
+gridMajor 10
+gridMinorX 0.1
+gridMinorY 0.1
+snapXGrid 0.01
+snapYGrid 0.01
+snapAngle 0
+zoomCursor 1
+rmbMode virtuoso
+dynamicHilite 0
+homeDir J:/lavoro/DIDATTIC/corsi/Micro2_PSM/home
+dimUnselected 0
+dimUnhilited 0
+dimPercent 100
+selectionType 0
+selectionMode 0
+drawCursorBox 1
+drawCursorCross 0
+gravity 0
+gravityDistance 1000
+gravityDepth 0
+gravityPathCentre 1
+gravityPathOutline 0
+showOptionForms 1
+autoRaise 1
+autoFocus 0
+zoomInPct 125
+zoomOutPct 80
+panPct 25
+fitPct 100
+showConnectivity 0
+maxConnections 10
+repeatCommands 1
+winStyle 1
+windowSize 1280x780
+topLevelLabels 1
+rotatedLabels 1
+allowMoveSelected 0
+labelScale 1
+showLSW 1
+LSWDockArea 2
+LSWDockTabbed 0
+showLibBrowser 1
+LibDockArea 1
+LibDockTabbed 0
+libDockIsFloating 0
+showHierBrowser 0
+HierDockArea 0
+HierDockTabbed 0
+showNetBrowser 0
+NetDockArea 0
+NetDockTabbed 0
+bindKey New_Lib Ctrl+Shift+N
+bindKey Open_Lib Ctrl+Shift+O
+bindKey Save_Lib Ctrl+Shift+S
+bindKey Save_Lib_As... NULL
+bindKey Close_Lib Ctrl+Shift+Q
+bindKey New_Cell Ctrl+N
+bindKey Open_Cell... Ctrl+O
+bindKey Save_Cell Ctrl+S
+bindKey Save_Cell_As... NULL
+bindKey Restore_Cell NULL
+bindKey Print... Ctrl+P
+bindKey Dump_Graphics... NULL
+bindKey Run_Script... NULL
+bindKey Edit_Ascii_File... NULL
+bindKey Exit NULL
+bindKey Import_Techfile... Ctrl+L
+bindKey Import_GDS2... Ctrl+I
+bindKey Import_LEF... Ctrl+J
+bindKey Import_DEF... Ctrl+G
+bindKey Import_OASIS... Ctrl+E
+bindKey Import_Verilog... Ctrl+Y
+bindKey Import_ECO... NULL
+bindKey Import_DXF... Ctrl+M
+bindKey Import_Cadence_techfile Ctrl+\
+bindKey Import_Laker_techfile Ctrl+/
+bindKey Import_CDL... Ctrl+U
+bindKey Export_Techfile... Ctrl+Shift+L
+bindKey Export_GDS2... Ctrl+Shift+I
+bindKey Export_LEF... Ctrl+Shift+J
+bindKey Export_DEF... Ctrl+Shift+G
+bindKey Export_OASIS... Ctrl+Shift+E
+bindKey Export_Verilog... Ctrl+Shift+Y
+bindKey Export_DXF... Ctrl+Shift+M
+bindKey Export_CDL... Ctrl+Shift+U
+bindKey Previous_View Ctrl+V
+bindKey Fit F
+bindKey Fit+ Shift++
+bindKey Zoom_In Z
+bindKey Zoom_Out Shift+Z
+bindKey Zoom_Selected X
+bindKey Pan Tab
+bindKey Pan_to_Point O
+bindKey Redraw Ctrl+R
+bindKey Pan_Left Left
+bindKey Pan_Right Right
+bindKey Pan_Down Down
+bindKey Pan_Up Up
+bindKey Ruler K
+bindKey Delete_Rulers Shift+K
+bindKey View_level_0 Ctrl+F
+bindKey View_level_99 Shift+F
+bindKey Cancel_Redraw Ctrl+C
+bindKey Show_User_Layers NULL
+bindKey Show_System_Layers NULL
+bindKey Show_CellView_Layers NULL
+bindKey Show_Viewport_Layers NULL
+bindKey Show_All_Layers NULL
+bindKey System_Layers_Visible NULL
+bindKey Show_Current_Layer_Properties NULL
+bindKey Display_Options... E
+bindKey Selection_Options... Shift+E
+bindKey Pan/Zoom_Options... NULL
+bindKey Undo U
+bindKey Redo NULL
+bindKey Delete Del
+bindKey Copy C
+bindKey Move M
+bindKey Move_By... #
+bindKey Stretch S
+bindKey Reshape Alt+R
+bindKey Add_Vertex .
+bindKey Rotate... Shift+R
+bindKey Move_Origin Shift+O
+bindKey Convert_to_Polygon NULL
+bindKey Boolean_Operations... B
+bindKey Tiled_Booleans... ,
+bindKey Merge_Selected Shift+M
+bindKey Chop Shift+C
+bindKey Align... A
+bindKey Set_Net Alt+S
+bindKey Create_Pins_from_Labels NULL
+bindKey Scale... NULL
+bindKey Bias... NULL
+bindKey Ascend Shift+B
+bindKey Descend Shift+X
+bindKey Create... Shift+Y
+bindKey Flatten... Y
+bindKey Edit_In_Place W
+bindKey Return Shift+W
+bindKey Select_All Ctrl+A
+bindKey Deselect_All Ctrl+D
+bindKey Select_Net... NULL
+bindKey Select_Instance... NULL
+bindKey Search... Shift+S
+bindKey Query Q
+bindKey Change_Orientation NULL
+bindKey Mirror_X NULL
+bindKey Mirror_Y NULL
+bindKey Rotate_90 NULL
+bindKey Edit_Bindkeys... NULL
+bindKey Create_Layer... NULL
+bindKey Delete_Layer... NULL
+bindKey Create_Circle... @
+bindKey Create_Instance... I
+bindKey Create_Label... T
+bindKey Create_Path... P
+bindKey Create_MultiPartPath... `
+bindKey Create_Polygon... Shift+P
+bindKey Create_Rectangle R
+bindKey Create_Pin... Shift+N
+bindKey Create_Via... V
+bindKey Create_Ellipse... Shift+~
+bindKey Create_Arc... Ctrl+~
+bindKey Run... Shift+L
+bindKey View_Errors... NULL
+bindKey Clear_Errors NULL
+bindKey Check... NULL
+bindKey Check_offgrid J
+bindKey Run... Shift+Y
+bindKey Run... Shift+L
+bindKey Import_Hercules_Errors NULL
+bindKey Import_Calibre_Errors NULL
+bindKey Compare_Cells_(XOR)... Alt+C
+bindKey Trace_Net... !
+bindKey Set_Layer_Stack... &
+bindKey Short_Tracer... NULL
+bindKey Clear_Highlights Shift+H
+bindKey Initialise_Floorplan... NULL
+bindKey Create_Rows... NULL
+bindKey Create_Region... NULL
+bindKey Create_Groups... NULL
+bindKey Place_Cells... NULL
+bindKey Unplace_Cells NULL
+bindKey Check_Overlaps NULL
+bindKey New_Groute NULL
+bindKey Global_Route... G
+bindKey Display_Net... Shift+G
+bindKey Toggle_Congestion_Map =
+bindKey Add... NULL
+bindKey Delete... NULL
+bindKey Replace_Views... NULL
+bindKey Highlight_Net_Types... NULL
+bindKey LSW L
+bindKey Message_Window NULL
+bindKey Library_Browser NULL
+bindKey Hierarchy_Browser H
+bindKey Net_Browser N
+bindKey World_View Shift+V
+bindKey Add_Marker... :
+bindKey Clear_Markers ;
+bindKey Show_Memory_Statistics Shift+!
+bindKey Show_Tree_Statistics Shift+$
+bindKey Tab_Style Alt+T
+bindKey MDI_Style Alt+M
+bindKey Cl&ose Ctrl+W
+bindKey Close_&All Ctrl+Shift+W
+bindKey &Tile NULL
+bindKey &Cascade NULL
+bindKey Ne&xt Alt+0
+bindKey Pre&vious Alt+9
+bindKey Contents... F1
+bindKey Index... NULL
+bindKey About NULL
+bindKey Message_Window NULL
+bindKey &Restore NULL
+bindKey &Move NULL
+bindKey &Size NULL
+bindKey Mi&nimize NULL
+bindKey Ma&ximize NULL
+bindKey Stay_on_&Top NULL
+bindKey &Close Ctrl+F4
+bindKey Edit NULL
+bindKey Create NULL
+bindKey Rotate NULL
+bindKey Display NULL
+bindKey File NULL
+bindKey Pan/Zoom NULL
+bindKey Hierarchy NULL
+bindKey DRC NULL
+bindKey &File NULL
+bindKey Import NULL
+bindKey Export NULL
+bindKey &View NULL
+bindKey Layers NULL
+bindKey &Edit NULL
+bindKey Hierarchy NULL
+bindKey Edit_In_Place NULL
+bindKey Select NULL
+bindKey Layers NULL
+bindKey &Create NULL
+bindKey &Verify NULL
+bindKey DRC NULL
+bindKey Extract NULL
+bindKey LVS NULL
+bindKey &Floorplan NULL
+bindKey Placement NULL
+bindKey Global_Route NULL
+bindKey Filler_Cells NULL
+bindKey &Tools NULL
+bindKey &Window NULL
+bindKey &Help NULL
+bindKey LSW NULL
+bindKey &Edit NULL
+bindKey &Display NULL
+bindKey Create_Layer... NULL
+bindKey Delete_Layer... NULL
+bindKey Show_User_Layers NULL
+bindKey Show_System_Layers NULL
+bindKey Show_CellView_Layers NULL
+bindKey Show_Viewport_Layers NULL
+bindKey Show_All_Layers NULL
+bindKey System_layers_visible NULL
+bindKey Library_Browser NULL
+bindKey Save_&As... NULL
+bindKey E&xit NULL
+bindKey &Find... NULL
+bindKey New_Library NULL
+bindKey Refresh NULL
+bindKey Tree_View NULL
+bindKey Case_Sensitive NULL
+bindKey &File NULL
+bindKey &Edit NULL
+bindKey View NULL
+bindKey Open_CellView NULL
+bindKey Delete_CellView NULL
+bindKey Rename_CellView NULL
+bindKey Copy_CellView NULL
+bindKey Properties NULL
+bindKey Delete_Library NULL
+bindKey Rename_Library NULL
+bindKey Delete_Cell NULL
+bindKey Rename_Cell NULL
+bindKey Case_Sensitive NULL
+bindKey Tree_View NULL
+bindKey Find... NULL
+bindKey Refresh NULL

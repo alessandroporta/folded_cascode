@@ -1,0 +1,11 @@
+* C:\glade6_win64\Progetto\LTSpice\WL_estimation.asc
+M1 Vgs Vgs 0 0 N_PSM025 l=1u w=2.3u
+I1 0 Vgs 11µ
+.model NMOS NMOS
+.model PMOS PMOS
+.lib C:\Users\alexp\AppData\Local\LTspice\lib\cmp\standard.mos
+* Stima (W/L) per M14:\nIb=11ua, (Vgs-Vt)=200mV, uCox=240e-6A/V^2\n(W/L)* = 2ID/(Vgs-Vt)^2 * 1/uCox = 55/24\n \nL=1um W=2.30um (risoluzione minima 0.05u)
+.op
+.lib PSM025.mos
+.backanno
+.end

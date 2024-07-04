@@ -1,0 +1,856 @@
+# Glade copyright 2023 Peardrop Design Systems. All rights reserved.
+# Glade Release version 6.0.3 compiled on Mar 27 2024 09:30:09
+# Python version 3.8.3 (tags/v3.8.3:6f8c832, May 13 2020, 22:37:02) [MSC v.1924 64 bit (AMD64)] for win32
+# PYTHONHOME is: C:/glade6_win64/glade6_win64/Python38
+# INFO: # GLADE_LICENSE_FILE not set!
+# Qt version 6.6.1 on 64 bit platform (little endian)
+# Compiled with Visual C++ version 13.4
+# Log file: C:/glade6_win64/ese_2024/glade/glade_06.04.2024_12.59.06_14896.log
+# Username: alexp Hostname: LAPTOP-9FLTR55I
+# Current time: Sat Apr  6 12:59:07 2024
+# Locale country: Italy, language: Italian.
+# Operating system: Windows 11 Version 23H2
+# Number of CPUs: 8
+# Available memory: 16189 Mb
+# MAC address: 0A:00:27:00:00:11
+# Device pixel ratio: 1.250000
+# Display 0: Screen size (pixels): 1536 x 864
+# Logical dpi: 96.0 Physical dpi: 113.6
+# Display Scale Factor: 1.00
+# Display 1: Screen size (pixels): 1440 x 900
+# Logical dpi: 96.0 Physical dpi: 89.1
+# Display Scale Factor: 1.00
+# INFO: Reading local preferences file gladerc.xml
+# INFO: Loaded library basic from C:/glade6_win64/glade6_win64/basic
+ui().fileNewLib()
+# INFO: Creating library ese!
+# INFO: Creating layer n_well purpose drawing
+# ERROR: Line 4: Invalid import pair specified: . Should be of form N:M
+# INFO: Creating layer active purpose drawing
+# ERROR: Line 5: Invalid import pair specified: . Should be of form N:M
+# INFO: Creating layer poly purpose drawing
+# ERROR: Line 6: Invalid import pair specified: . Should be of form N:M
+# INFO: Creating layer n_plus purpose drawing
+# ERROR: Line 7: Invalid import pair specified: . Should be of form N:M
+# INFO: Creating layer p_plus purpose drawing
+# ERROR: Line 8: Invalid import pair specified: . Should be of form N:M
+# INFO: Creating layer contact purpose drawing
+# ERROR: Line 9: Invalid import pair specified: . Should be of form N:M
+# INFO: Creating layer metal1 purpose drawing
+# ERROR: Line 10: Invalid import pair specified: . Should be of form N:M
+# INFO: Creating layer via purpose drawing
+# ERROR: Line 11: Invalid import pair specified: . Should be of form N:M
+# INFO: Creating layer metal2 purpose drawing
+# ERROR: Line 12: Invalid import pair specified: . Should be of form N:M
+# INFO: Creating layer glass purpose drawing
+# ERROR: Line 13: Invalid import pair specified: . Should be of form N:M
+# INFO: Creating layer potxt purpose drawing
+# ERROR: Line 14: Invalid import pair specified: . Should be of form N:M
+# INFO: Creating layer m1txt purpose drawing
+# ERROR: Line 15: Invalid import pair specified: . Should be of form N:M
+# INFO: Creating layer m2txt purpose drawing
+# ERROR: Line 16: Invalid import pair specified: . Should be of form N:M
+# INFO: Layer n_well purpose drawing minWidth rule 1.5000
+# INFO: Layer n_well purpose drawing minSpace rule 1.0000
+# INFO: Layer active purpose drawing minWidth rule 0.5000
+# INFO: Layer active purpose drawing minSpace rule 0.5000
+# INFO: Layer poly purpose drawing minWidth rule 0.5000
+# INFO: Layer poly purpose drawing minSpace rule 0.5000
+# INFO: Layer n_plus purpose drawing minWidth rule 0.5000
+# INFO: Layer n_plus purpose drawing minSpace rule 0.5000
+# INFO: Layer p_plus purpose drawing minWidth rule 0.5000
+# INFO: Layer p_plus purpose drawing minSpace rule 0.5000
+# INFO: Layer contact purpose drawing minWidth rule 0.2500
+# INFO: Layer contact purpose drawing minSpace rule 0.2500
+# INFO: Layer metal1 purpose drawing minWidth rule 0.5000
+# INFO: Layer metal1 purpose drawing minSpace rule 0.5000
+# INFO: Layer via purpose drawing minWidth rule 0.2500
+# INFO: Layer via purpose drawing minSpace rule 0.2500
+# INFO: Layer metal2 purpose drawing minWidth rule 0.5000
+# INFO: Layer metal2 purpose drawing minSpace rule 0.5000
+# INFO: Layer glass purpose drawing minWidth rule 20.0000
+# INFO: Layer glass purpose drawing minSpace rule 10.0000
+# INFO: Creating via active_m1
+# INFO: Creating via poly_m1
+# INFO: Creating via m2_m1
+# WARNING: Line 644: Stipple zagl1 already defined, ignoring.
+# WARNING: Line 662: Stipple zagr1 already defined, ignoring.
+ui().fileNewCell()
+# INFO: Opened cell nand2 view layout
+ui().fileSaveCellAs()
+ui().selectArea(-3324, 2728, 3089, 4989, 0)
+ui().fileSaveLibAs(1, 1)
+# INFO: Saving library ese to C:/glade6_win64/ese_2024/glade
+# INFO: Saving library C:/glade6_win64/ese_2024/glade/ese, version = 680
+Writing cell nand2 view layout
+ui().fileSaveCellAs()
+# INFO: Saving cellview C:/glade6_win64/ese_2024/glade/ese/nand2/layout
+# ERROR: Cell nand2 view layout already exists - copy not permitted!
+ui().openCellView("ese", "nand2", "layout", 1)
+# WARNING: Acquired a lock for cell nand2 view layout for user alexp on host LAPTOP-9FLTR55I with process ID 14896
+# INFO: Opened cell nand2 view layout
+ui().winFit()
+# INFO: Set current layer to active drawing
+ui().zoomIn(768, 1718, 1492, 2804)
+# INFO: Creating rectangle on layer active at (0.150, 2.150) (1.250, 2.500)
+ui().selectPoint(600, 2300, 0)
+ui().properties("ese", "nand2", "layout")
+ui().selectPoint(600, 2300, 0)
+ui().selectArea(516, 2333, 634, 2391, 0)
+ui().properties("ese", "nand2", "layout")
+ui().selectPoint(600, 2300, 0)
+# INFO: Set current layer to poly drawing
+# INFO: Creating rectangle on layer poly at (-0.100, 3.150) (1.950, 3.450)
+ui().editCreateRect()
+# ERROR: Attempting to create a rectangle with zero width/height, ignored!
+ui().selectPoint(1900, 2400, 0)
+ui().selectPoint(-50, 2700, 0)
+# INFO: Set current layer to poly drawing
+# INFO: Creating rectangle on layer poly at (-0.100, 2.400) (1.900, 2.700)
+ui().selectPoint(600, 3250, 0)
+ui().properties("ese", "nand2", "layout")
+ui().selectPoint(600, 3250, 0)
+ui().selectPoint(0, 3250, 0)
+ui().properties("ese", "nand2", "layout")
+ui().selectPoint(0, 3250, 0)
+ui().selectPoint(1750, 2550, 0)
+ui().properties("ese", "nand2", "layout")
+ui().selectPoint(1750, 2550, 0)
+ui().winRuler()
+# INFO: Ruler (1.65000 3.05000) (2.25000 3.05000) length = 0.60000
+ui().fileSaveCell()
+# INFO: Saving cellview C:/glade6_win64/ese_2024/glade/ese/nand2/layout
+ui().fileSaveCell()
+# INFO: Saving cellview C:/glade6_win64/ese_2024/glade/ese/nand2/layout
+ui().selectPoint(-650, 2500, 0)
+ui().selectPoint(2050, 3300, 0)
+# INFO: Setting selection mode to PARTIAL
+ui().editStretch()
+# WARNING: Please select something first.
+ui().selectPoint(1900, 3250, 0)
+ui().editStretch()
+# INFO: Stretching edge(s) of segment by (0.350, 0.000)
+# INFO: 1 Edge(s) stretched by (0.350, 0.000)
+ui().winRuler()
+# INFO: Ruler (0.15000 3.05000) (-0.45000 3.05000) length = 0.60000
+ui().selectArea(-433, 3059, 1179, 3320, 0)
+ui().winDeleteRulers()
+ui().winRuler()
+# INFO: Ruler (0.15000 3.05000) (-0.45000 3.05000) length = 0.60000
+ui().editStretch()
+ui().editStretch()
+# INFO: Aborting current command.
+ui().selectPoint(-100, 3300, 0)
+ui().editStretch()
+# INFO: Stretching edge(s) of segment by (-0.350, 0.000)
+# INFO: 1 Edge(s) stretched by (-0.350, 0.000)
+ui().winDeleteRulers()
+ui().selectPoint(-100, 2500, 0)
+ui().editStretch()
+# INFO: Stretching edge(s) of segment by (-0.350, 0.000)
+# INFO: 1 Edge(s) stretched by (-0.350, 0.000)
+ui().editStretch()
+ui().selectPoint(1900, 2500, 0)
+ui().editStretch()
+# INFO: Stretching edge(s) of segment by (0.350, 0.000)
+# INFO: 1 Edge(s) stretched by (0.350, 0.000)
+# INFO: Set current layer to active drawing
+# INFO: Creating rectangle on layer active at (2.000, 4.350) (3.450, 5.600)
+ui().selectPoint(2550, 5050, 0)
+ui().properties("ese", "nand2", "layout")
+ui().selectPoint(2550, 5050, 0)
+ui().selectArea(2550, 5049, 3156, 6113, 0)
+ui().selectPoint(2850, 5100, 0)
+ui().selectPoint(2700, 4850, 0)
+ui().selectPoint(2650, 5050, 0)
+ui().properties("ese", "nand2", "layout")
+ui().selectPoint(2650, 5050, 0)
+ui().selectArea(2642, 5015, 3111, 5976, 0)
+ui().selectArea(1612, 4157, 3923, 5884, 0)
+ui().selectPoint(2750, 4750, 0)
+ui().properties("ese", "nand2", "layout")
+ui().selectPoint(2750, 4750, 0)
+ui().selectArea(2733, 4717, 3202, 6056, 0)
+ui().selectPoint(2600, 5050, 0)
+# INFO: Set current layer to active drawing
+# INFO: Creating rectangle on layer active at (-1.350, 4.250) (0.200, 5.600)
+ui().selectArea(-1635, 4065, 434, 6170, 0)
+ui().editMove()
+# INFO: 1 object(s) moved by delta = (0.000, 0.600)
+ui().selectPoint(-800, 5400, 0)
+ui().selectArea(-812, 5392, -606, 5621, 0)
+ui().selectPoint(-800, 5400, 0)
+ui().properties("ese", "nand2", "layout")
+ui().selectPoint(-800, 5400, 0)
+ui().selectArea(-594, 5610, 2962, 6571, 0)
+ui().selectPoint(-2150, 4100, 0)
+ui().selectArea(-1589, 4637, 1269, 6651, 0)
+ui().editMove()
+# INFO: 1 object(s) moved by delta = (4.350, 0.100)
+ui().editMove()
+# INFO: 1 object(s) moved by delta = (-5.150, -0.150)
+ui().selectArea(1601, 4156, 4414, 5781, 0)
+ui().editMove()
+# INFO: 1 object(s) moved by delta = (0.150, 0.550)
+# INFO: Set current layer to poly drawing
+ui().selectArea(1646, 5232, 3922, 5781, 0)
+ui().editCreateRect()
+# INFO: Creating rectangle on layer poly at (1.750, 5.200) (4.000, 5.850)
+ui().selectPoint(-2800, 5750, 0)
+ui().editCreateRect()
+# INFO: Creating rectangle on layer poly at (-2.400, 5.150) (-0.250, 5.600)
+ui().selectPoint(2000, 5500, 0)
+ui().selectPoint(1900, 5600, 0)
+ui().properties("ese", "nand2", "layout")
+ui().selectPoint(1900, 5600, 0)
+ui().selectArea(1921, 5564, 3030, 6479, 0)
+ui().selectArea(3694, 4797, 4208, 5816, 0)
+ui().selectPoint(3750, 5600, 0)
+ui().properties("ese", "nand2", "layout")
+ui().selectPoint(3750, 5600, 0)
+ui().selectArea(3042, 5587, 3751, 6491, 0)
+ui().selectPoint(1450, 5200, 0)
+# INFO: Setting selection mode to FULL
+ui().selectPoint(1850, 5450, 0)
+ui().properties("ese", "nand2", "layout")
+ui().selectPoint(1850, 5450, 0)
+ui().selectPoint(1950, 5500, 0)
+ui().properties("ese", "nand2", "layout")
+ui().selectPoint(1950, 5500, 0)
+ui().selectPoint(1900, 5500, 0)
+ui().properties("ese", "nand2", "layout")
+ui().selectPoint(1900, 5500, 0)
+ui().selectPoint(-1200, 5400, 0)
+ui().properties("ese", "nand2", "layout")
+ui().selectPoint(-1200, 5400, 0)
+ui().selectArea(-1212, 5404, 3122, 6514, 0)
+ui().selectPoint(1900, 5700, 0)
+ui().properties("ese", "nand2", "layout")
+ui().selectPoint(1900, 5700, 0)
+ui().selectPoint(2400, 6450, 0)
+ui().properties("ese", "nand2", "layout")
+ui().selectPoint(2400, 6450, 0)
+ui().selectArea(2413, 6445, 3053, 6559, 0)
+ui().selectPoint(1900, 3300, 0)
+ui().selectPoint(2000, 5850, 0)
+ui().editCut()
+# INFO: Deleting 1 object(s)
+ui().selectPoint(-350, 5350, 0)
+ui().editCut()
+# INFO: Deleting 1 object(s)
+ui().selectPoint(2100, 3250, 0)
+ui().editCopy()
+# INFO: 1 object(s) copied with delta = (1.900, 2.300), 1 rows 1 cols 0.000 row spacing 0.000 col spacing
+ui().selectPoint(1650, 5450, 0)
+ui().editCopy()
+# INFO: 1 object(s) copied with delta = (-4.200, 0.000), 1 rows 1 cols 0.000 row spacing 0.000 col spacing
+ui().selectPoint(-1000, 3950, 0)
+ui().selectPoint(3050, 5150, 0)
+ui().properties("ese", "nand2", "layout")
+ui().selectPoint(3050, 5150, 0)
+ui().selectPoint(-1100, 5200, 0)
+ui().properties("ese", "nand2", "layout")
+ui().selectPoint(-1100, 5200, 0)
+ui().selectPoint(-1250, 4300, 0)
+ui().zoomIn(-1326, 3962, -1281, 4259)
+ui().selectPoint(750, 3550, 0)
+ui().properties("ese", "nand2", "layout")
+ui().selectPoint(750, 3550, 0)
+ui().selectPoint(750, 3800, 0)
+ui().editMove()
+# INFO: 1 object(s) moved by delta = (0.000, -0.350)
+ui().selectPoint(1250, 3600, 0)
+ui().editMove()
+# INFO: 1 object(s) moved by delta = (0.000, 0.100)
+ui().selectPoint(-1000, 5000, 0)
+ui().selectArea(-2880, 4574, -8, 6950, 0)
+ui().editMove()
+# INFO: 2 object(s) moved by delta = (0.000, 0.450)
+ui().selectArea(1008, 4864, 4625, 6623, 0)
+ui().editMove()
+# INFO: 2 object(s) moved by delta = (-0.050, 0.450)
+ui().selectPoint(3550, 4300, 0)
+# INFO: Set current layer to via drawing
+# INFO: Set current layer to active drawing
+ui().editCreateVia()
+ui().fileSaveCell()
+# INFO: Saving cellview C:/glade6_win64/ese_2024/glade/ese/nand2/layout
+ui().editCreateVia()
+ui().editCreateVia()
+# INFO: Aborting current command.
+ui().selectPoint(1500, 2100, 0)
+ui().properties("ese", "nand2", "layout")
+ui().selectPoint(1500, 2100, 0)
+ui().selectArea(1481, 2071, 5534, 7367, 0)
+ui().selectPoint(-700, 5450, 0)
+ui().properties("ese", "nand2", "layout")
+ui().selectPoint(-700, 5450, 0)
+ui().selectPoint(1500, 3450, 0)
+ui().properties("ese", "nand2", "layout")
+ui().selectPoint(1500, 3450, 0)
+ui().selectArea(1517, 3449, 5497, 7457, 0)
+ui().selectPoint(-1500, 5450, 0)
+ui().properties("ese", "nand2", "layout")
+ui().selectPoint(-1500, 5450, 0)
+ui().selectPoint(1550, 3500, 0)
+ui().properties("ese", "nand2", "layout")
+ui().selectPoint(1550, 3500, 0)
+ui().selectArea(1554, 3485, 5534, 7222, 0)
+ui().selectPoint(-400, 5650, 0)
+ui().properties("ese", "nand2", "layout")
+ui().selectPoint(-400, 5650, 0)
+ui().selectPoint(2500, 5550, 0)
+ui().properties("ese", "nand2", "layout")
+ui().selectPoint(2500, 5550, 0)
+ui().selectPoint(2500, 5550, 0)
+ui().properties("ese", "nand2", "layout")
+ui().selectPoint(2500, 5550, 0)
+ui().selectArea(2789, 5553, 5588, 7331, 0)
+ui().selectPoint(-1350, 5350, 0)
+ui().properties("ese", "nand2", "layout")
+ui().selectPoint(-1350, 5350, 0)
+ui().selectPoint(-400, 6000, 0)
+ui().editMove()
+# INFO: 1 object(s) moved by delta = (0.000, 0.300)
+ui().selectPoint(4050, 6000, 0)
+ui().editMove()
+# INFO: 1 object(s) moved by delta = (0.150, 0.300)
+ui().winRuler()
+# INFO: Ruler (3.60000 6.00000) (4.20000 6.00000) length = 0.60000
+ui().winRuler()
+# INFO: Ruler (2.10000 6.00000) (1.50000 6.00000) length = 0.60000
+ui().selectPoint(1650, 6300, 0)
+ui().editMove()
+# INFO: 1 object(s) moved by delta = (-0.050, 0.000)
+ui().winDeleteRulers()
+ui().selectArea(-2797, 4994, -270, 7470, 0)
+ui().editCut()
+# INFO: Deleting 1 object(s)
+ui().selectPoint(-1900, 6350, 0)
+ui().editCut()
+# INFO: Deleting 1 object(s)
+ui().selectArea(1482, 4976, 4408, 7660, 0)
+ui().editCopy()
+# INFO: 2 object(s) copied with delta = (-4.750, 0.000), 1 rows 1 cols 0.000 row spacing 0.000 col spacing
+ui().selectArea(1179, 4721, 4742, 7858, 0)
+ui().editMove()
+# INFO: 2 object(s) moved by delta = (0.350, 0.000)
+ui().editCreateVia()
+ui().editCreateVia()
+ui().editCreateVia()
+ui().editCreateVia()
+# INFO: Set current layer to n_well drawing
+ui().selectPoint(-3800, 4550, 0)
+ui().editCreateRect()
+# INFO: Creating rectangle on layer n_well at (-3.800, 4.550) (6.300, 8.350)
+ui().selectArea(-1490, 1383, 5996, 4213, 0)
+ui().selectArea(-1599, 730, 7159, 4358, 0)
+ui().editMove()
+# INFO: 6 object(s) moved by delta = (0.000, -0.650)
+ui().selectPoint(-2500, 1850, 0)
+ui().winRuler()
+# INFO: Ruler (1.65000 2.30000) (2.45000 2.30000) length = 0.80000
+ui().winRuler()
+# INFO: Ruler (0.15000 2.25000) (-0.65000 2.25000) length = 0.80000
+# INFO: Setting selection mode to PARTIAL
+ui().editStretch()
+# WARNING: Please select something first.
+ui().selectPoint(2250, 2600, 0)
+ui().editStretch()
+# INFO: Stretching edge(s) of segment by (0.200, 0.000)
+# INFO: 1 Edge(s) stretched by (0.200, 0.000)
+ui().selectPoint(-450, 2600, 0)
+ui().editStretch()
+# INFO: Stretching edge(s) of segment by (-0.200, 0.000)
+# INFO: 1 Edge(s) stretched by (-0.200, 0.000)
+ui().selectPoint(-450, 1900, 0)
+ui().editStretch()
+# INFO: Stretching edge(s) of segment by (-0.200, 0.000)
+# INFO: 1 Edge(s) stretched by (-0.200, 0.000)
+ui().selectPoint(2250, 1850, 0)
+ui().editStretch()
+# INFO: Stretching edge(s) of segment by (0.200, 0.000)
+# INFO: 1 Edge(s) stretched by (0.200, 0.000)
+# INFO: Setting selection mode to FULL
+ui().winDeleteRulers()
+ui().winRuler()
+# INFO: Ruler (-1.15000 5.90000) (-0.35000 5.90000) length = 0.80000
+# INFO: Setting selection mode to PARTIAL
+ui().selectPoint(-550, 6300, 0)
+ui().editStretch()
+# INFO: Stretching edge(s) of segment by (0.200, 0.000)
+# INFO: 1 Edge(s) stretched by (0.200, 0.000)
+ui().winRuler()
+ui().winRuler()
+# INFO: Ruler (-2.65000 6.00000) (-3.45000 6.00000) length = 0.80000
+ui().selectPoint(-3250, 6300, 0)
+ui().editStretch()
+# INFO: Stretching edge(s) of segment by (-0.200, 0.000)
+# INFO: 1 Edge(s) stretched by (-0.200, 0.000)
+ui().winDeleteRulers()
+ui().editUndo()
+# INFO: Undoing last stretch
+ui().editUndo()
+# INFO: Undoing last stretch
+ui().editRedo()
+# INFO: Redoing last stretch
+ui().editRedo()
+# INFO: Redoing last stretch
+ui().editUndo()
+# INFO: Undoing last stretch
+# INFO: Setting selection mode to FULL
+ui().selectPoint(2200, 6300, 0)
+ui().editCut()
+# INFO: Deleting 1 object(s)
+ui().selectPoint(-850, 6350, 0)
+ui().editCopy()
+# INFO: 1 object(s) copied with delta = (5.100, 0.000), 1 rows 1 cols 0.000 row spacing 0.000 col spacing
+ui().winRuler()
+# INFO: Ruler (1.95000 2.00000) (1.95000 2.50000) length = 0.50000
+ui().winDeleteRulers()
+ui().selectPoint(3850, 3250, 0)
+ui().editCreateVia()
+ui().editCreateVia()
+ui().editCreateVia()
+ui().editCreateVia()
+ui().selectPoint(-1900, 3550, 0)
+ui().selectArea(-1883, 3553, 5947, 7879, 0)
+ui().selectPoint(4400, 3100, 0)
+ui().selectPoint(-2250, 7000, 0)
+ui().selectPoint(-2100, 6900, 0)
+ui().editMove()
+# INFO: 1 object(s) moved by delta = (-0.250, 0.250)
+ui().selectPoint(-1550, 6850, 0)
+ui().editMove()
+# INFO: 1 object(s) moved by delta = (0.250, 0.250)
+ui().winRuler()
+# INFO: Ruler (-2.65000 7.70000) (-1.15000 7.70000) length = 1.50000
+ui().winDeleteRulers()
+ui().winRuler()
+# INFO: Ruler (-2.15000 7.75000) (-1.60000 7.75000) length = 0.55000
+ui().selectPoint(-2250, 7450, 0)
+ui().selectPoint(-2200, 7450, 0)
+ui().selectPoint(-2300, 7200, 0)
+ui().selectPoint(-2350, 7150, 0)
+ui().editMove()
+# INFO: 1 object(s) moved by delta = (0.100, 0.000)
+ui().selectPoint(-1150, 7400, 0)
+ui().editMove()
+# INFO: 1 object(s) moved by delta = (-0.150, 0.000)
+ui().selectPoint(-2000, 7750, 0)
+ui().winDeleteRulers()
+ui().winRuler()
+# INFO: Ruler (-2.05000 7.65000) (-1.75000 7.65000) length = 0.30000
+ui().selectPoint(-2350, 7400, 0)
+ui().editMove()
+# INFO: 1 object(s) moved by delta = (-0.050, 0.000)
+ui().selectPoint(-1450, 7400, 0)
+ui().editMove()
+# INFO: 1 object(s) moved by delta = (0.050, 0.000)
+ui().winRuler()
+# INFO: Ruler (-1.75000 7.65000) (-1.70000 7.65000) length = 0.05000
+ui().selectPoint(-2050, 7650, 0)
+ui().winDeleteRulers()
+ui().winRuler()
+# INFO: Ruler (-2.10000 7.65000) (-1.70000 7.65000) length = 0.40000
+ui().selectPoint(-2100, 5300, 0)
+ui().editMove()
+# INFO: 1 object(s) moved by delta = (-0.250, -0.150)
+ui().winRuler()
+# INFO: Ruler (-2.85000 7.35000) (-2.85000 7.60000) length = 0.25000
+ui().winRuler()
+# INFO: Ruler (-2.90000 5.35000) (-2.90000 5.10000) length = 0.25000
+ui().selectPoint(-2700, 5500, 0)
+ui().selectPoint(-2700, 5500, 0)
+ui().editMove()
+# INFO: 1 object(s) moved by delta = (0.000, -0.050)
+ui().selectPoint(-1150, 5300, 0)
+ui().editMove()
+# INFO: 1 object(s) moved by delta = (0.050, -0.200)
+ui().editMove()
+# INFO: 1 object(s) moved by delta = (-0.050, 0.000)
+ui().zoomIn(-714, 5459, -383, 5481)
+ui().winDeleteRulers()
+ui().selectArea(1598, 5283, 4476, 7555, 0)
+ui().editCut()
+# INFO: Deleting 5 object(s)
+ui().selectArea(3227, 5968, 3661, 6541, 0)
+ui().editCut()
+# WARNING: Nothing to delete. Select something first!
+ui().selectPoint(3600, 6250, 0)
+ui().editCut()
+# INFO: Deleting 1 object(s)
+ui().selectArea(-3385, 4997, -221, 7798, 0)
+ui().editCopy()
+# INFO: 6 object(s) copied with delta = (4.200, 0.000), 1 rows 1 cols 0.000 row spacing 0.000 col spacing
+ui().selectPoint(-2300, 3150, 0)
+ui().editUndo()
+# INFO: Undoing last copy
+ui().editUndo()
+# INFO: Undoing last delete
+ui().selectPoint(3100, 6250, 0)
+ui().editCut()
+# INFO: Deleting 1 object(s)
+ui().selectArea(-3072, 5062, -648, 7655, 0)
+ui().selectArea(-3087, 5047, -512, 7730, 0)
+ui().selectArea(-3148, 7308, -3042, 7339, 0)
+ui().selectArea(-3133, 5243, -467, 7580, 0)
+ui().selectArea(-3554, 5213, -392, 7534, 0)
+ui().selectPoint(-2900, 7450, 0)
+ui().selectArea(-3042, 5107, -768, 7655, 0)
+ui().selectPoint(-700, 5100, 0)
+ui().selectArea(-3313, 5092, -723, 7655, 0)
+ui().editYank()
+# INFO: 5 objects yanked
+ui().selectPoint(-3300, 7700, 0)
+ui().selectArea(-3298, 5123, -287, 7761, 0)
+ui().editCopy()
+# INFO: Aborting current command.
+ui().selectArea(-3268, 5047, -588, 7746, 0)
+ui().editCopy()
+# INFO: Aborting current command.
+ui().selectPoint(-3300, 7600, 0)
+ui().selectArea(-3208, 5484, 0, 7534, 0)
+ui().selectArea(-3118, 5545, -527, 7233, 0)
+ui().selectArea(-3027, 5138, -603, 7414, 0)
+ui().selectArea(-3223, 4746, -588, 7836, 0)
+ui().selectArea(-3524, 4987, 240, 7881, 0)
+ui().editCopy()
+# INFO: 6 object(s) copied with delta = (4.650, 0.000), 1 rows 1 cols 0.000 row spacing 0.000 col spacing
+ui().selectPoint(-1350, 3800, 0)
+ui().selectPoint(1500, 2850, 0)
+ui().properties("ese", "nand2", "layout")
+ui().selectPoint(1500, 2850, 0)
+ui().selectPoint(1450, 1400, 0)
+ui().properties("ese", "nand2", "layout")
+ui().selectPoint(1450, 1400, 0)
+ui().selectPoint(1350, 3000, 0)
+ui().properties("ese", "nand2", "layout")
+ui().selectPoint(1350, 3000, 0)
+ui().selectPoint(300, 2950, 0)
+ui().editCopy()
+# INFO: 1 object(s) copied with delta = (0.300, 0.000), 1 rows 1 cols 0.000 row spacing 0.000 col spacing
+ui().editUndo()
+# INFO: Undoing last copy
+ui().selectPoint(350, 2900, 0)
+ui().editMove()
+# INFO: 1 object(s) moved by delta = (0.300, 0.000)
+ui().winRuler()
+# INFO: Ruler (1.45000 2.35000) (2.25000 2.35000) length = 0.80000
+ui().winRuler()
+# INFO: Ruler (0.45000 2.35000) (-0.35000 2.35000) length = 0.80000
+# INFO: Setting selection mode to PARTIAL
+ui().selectPoint(-650, 2600, 0)
+ui().editStretch()
+# INFO: Stretching edge(s) of segment by (0.300, 0.000)
+# INFO: 1 Edge(s) stretched by (0.300, 0.000)
+ui().selectPoint(2450, 2600, 0)
+ui().editStretch()
+# INFO: Stretching edge(s) of segment by (-0.200, 0.050)
+# INFO: 1 Edge(s) stretched by (-0.200, 0.050)
+ui().selectPoint(-650, 1850, 0)
+ui().editStretch()
+# INFO: Stretching edge(s) of segment by (0.300, 0.000)
+# INFO: 1 Edge(s) stretched by (0.300, 0.000)
+ui().selectPoint(2450, 1850, 0)
+ui().editStretch()
+# INFO: Stretching edge(s) of segment by (-0.200, 0.050)
+# INFO: 1 Edge(s) stretched by (-0.200, 0.050)
+ui().winDeleteRulers()
+# INFO: Setting selection mode to FULL
+ui().selectPoint(1150, 800, 0)
+ui().editMove()
+# INFO: 1 object(s) moved by delta = (0.050, 0.000)
+ui().selectPoint(1250, 3600, 0)
+ui().editMove()
+# INFO: 1 object(s) moved by delta = (0.050, 0.000)
+ui().selectPoint(-1900, 6050, 0)
+ui().properties("ese", "nand2", "layout")
+ui().selectPoint(-1900, 6050, 0)
+ui().selectPoint(-900, 5800, 0)
+ui().editMove()
+# INFO: 1 object(s) moved by delta = (-0.250, 0.000)
+ui().selectPoint(3100, 5950, 0)
+ui().properties("ese", "nand2", "layout")
+ui().selectPoint(3100, 5950, 0)
+ui().selectPoint(3750, 5850, 0)
+ui().editMove()
+# INFO: 1 object(s) moved by delta = (-0.300, 0.000)
+# INFO: Setting selection mode to PARTIAL
+ui().winRuler()
+# INFO: Ruler (-0.90000 6.05000) (-0.10000 6.05000) length = 0.80000
+ui().winRuler()
+# INFO: Ruler (-2.90000 6.00000) (-3.70000 6.00000) length = 0.80000
+ui().selectPoint(-3250, 6250, 0)
+ui().editStretch()
+# INFO: Stretching edge(s) of segment by (-0.450, 0.000)
+# INFO: 1 Edge(s) stretched by (-0.450, 0.000)
+ui().selectPoint(-350, 6300, 0)
+ui().editStretch()
+# INFO: Stretching edge(s) of segment by (0.250, 0.000)
+# INFO: 1 Edge(s) stretched by (0.250, 0.000)
+ui().winDeleteRulers()
+ui().selectPoint(-3800, 7600, 0)
+ui().editStretch()
+# INFO: Stretching edge(s) of segment by (-0.450, 0.000)
+# INFO: 1 Edge(s) stretched by (-0.450, 0.000)
+# INFO: Setting selection mode to FULL
+ui().selectArea(1165, 5150, 4509, 7834, 0)
+ui().editCut()
+# INFO: Deleting 4 object(s)
+ui().selectArea(1195, 5210, 3816, 6281, 0)
+ui().selectArea(1331, 5135, 3740, 6010, 0)
+ui().selectArea(1527, 4849, 3876, 6145, 0)
+ui().editCut()
+# INFO: Deleting 2 object(s)
+ui().selectArea(-4000, 4984, 397, 7969, 0)
+ui().editCopy()
+# INFO: 6 object(s) copied with delta = (4.900, 0.000), 1 rows 1 cols 0.000 row spacing 0.000 col spacing
+# INFO: Setting selection mode to PARTIAL
+ui().selectPoint(5700, 8350, 0)
+ui().editStretch()
+# INFO: Stretching edge(s) of segment by (0.000, 0.400)
+# INFO: 1 Edge(s) stretched by (0.000, 0.400)
+ui().selectPoint(6300, 8000, 0)
+ui().editStretch()
+# INFO: Stretching edge(s) of segment by (0.350, -0.050)
+# INFO: 1 Edge(s) stretched by (0.350, -0.050)
+# INFO: Setting selection mode to FULL
+ui().winRuler()
+# INFO: Ruler (5.55000 8.20000) (5.55000 8.75000) length = 0.55000
+ui().winRuler()
+# INFO: Ruler (5.85000 7.80000) (6.65000 7.80000) length = 0.80000
+ui().winDeleteRulers()
+ui().selectPoint(5450, 8600, 0)
+# INFO: Setting selection mode to PARTIAL
+ui().selectPoint(5500, 8750, 0)
+ui().editStretch()
+# INFO: Stretching edge(s) of segment by (0.000, -0.100)
+# INFO: 1 Edge(s) stretched by (0.000, -0.100)
+ui().winRuler()
+# INFO: Ruler (5.55000 8.20000) (5.55000 8.70000) length = 0.50000
+ui().winRuler()
+# INFO: Ruler (5.85000 7.85000) (6.35000 7.85000) length = 0.50000
+ui().selectPoint(5900, 8650, 0)
+ui().editStretch()
+# INFO: Stretching edge(s) of segment by (0.000, 0.050)
+# INFO: 1 Edge(s) stretched by (0.000, 0.050)
+ui().selectPoint(6650, 7800, 0)
+ui().editStretch()
+# INFO: Stretching edge(s) of segment by (-0.300, 0.000)
+# INFO: 1 Edge(s) stretched by (-0.300, 0.000)
+ui().selectPoint(4700, 8150, 0)
+ui().winDeleteRulers()
+ui().fileSaveCell()
+# INFO: Saving cellview C:/glade6_win64/ese_2024/glade/ese/nand2/layout
+# INFO: Set current layer to p_plus drawing
+# INFO: Creating rectangle on layer p_plus at (-3.900, 4.750) (0.200, 8.200)
+ui().selectPoint(200, 5200, 0)
+ui().editStretch()
+# INFO: Stretching edge(s) of segment by (4.850, -0.050)
+# INFO: 1 Edge(s) stretched by (4.850, -0.050)
+# INFO: Setting selection mode to FULL
+ui().selectPoint(1000, 900, 0)
+ui().editMove()
+# INFO: 1 object(s) moved by delta = (0.000, 0.200)
+ui().selectArea(1003, 1106, 2023, 2569, 0)
+ui().winRuler()
+# INFO: Ruler (1.45000 1.40000) (1.50000 1.40000) length = 0.05000
+ui().winDeleteRulers()
+ui().selectPoint(700, 1150, 0)
+ui().editMove()
+# INFO: Aborting current command.
+ui().selectPoint(1400, 1350, 0)
+ui().properties("ese", "nand2", "layout")
+ui().selectPoint(1400, 1350, 0)
+ui().selectArea(1296, 1332, 1387, 3678, 0)
+ui().selectPoint(1200, 1100, 0)
+ui().selectPoint(1100, 1050, 0)
+ui().editMove()
+# INFO: 1 object(s) moved by delta = (0.000, 0.200)
+ui().selectPoint(1250, 1200, 0)
+ui().editMove()
+# INFO: 1 object(s) moved by delta = (0.000, -0.150)
+ui().selectPoint(1250, 1100, 0)
+ui().editMove()
+# INFO: 1 object(s) moved by delta = (0.000, -0.050)
+ui().selectPoint(1300, 3450, 0)
+ui().editMove()
+# INFO: 1 object(s) moved by delta = (0.000, -0.150)
+ui().selectPoint(1150, 1100, 0)
+ui().selectPoint(1100, 1050, 0)
+ui().editMove()
+# INFO: Setting selection mode to PARTIAL
+ui().selectPoint(1400, 3250, 0)
+ui().editStretch()
+# INFO: Stretching edge(s) of segment by (0.050, 0.000)
+# INFO: 1 Edge(s) stretched by (0.050, 0.000)
+ui().zoomIn(3122, 1896, 3408, 2650)
+ui().selectPoint(350, 7650, 0)
+# INFO: Setting selection mode to FULL
+ui().selectPoint(350, 6600, 0)
+ui().selectPoint(500, 7700, 0)
+ui().editCut()
+# INFO: Deleting 1 object(s)
+ui().selectPoint(-1300, 5450, 0)
+ui().editMove()
+# INFO: 1 object(s) moved by delta = (0.000, 0.350)
+ui().selectPoint(-2150, 5100, 0)
+ui().editMove()
+# INFO: 1 object(s) moved by delta = (0.000, 0.350)
+ui().selectPoint(-2100, 6900, 0)
+ui().editMove()
+# INFO: 1 object(s) moved by delta = (0.000, -0.400)
+ui().selectPoint(-1550, 6900, 0)
+ui().editMove()
+# INFO: 1 object(s) moved by delta = (0.000, -0.400)
+ui().selectPoint(-1400, 5650, 0)
+ui().editMove()
+# INFO: 1 object(s) moved by delta = (0.100, 0.000)
+ui().selectPoint(-3800, 7750, 0)
+ui().selectArea(-3934, 5023, 116, 7901, 0)
+ui().selectArea(933, 4851, 4835, 8235, 0)
+ui().editCut()
+# INFO: Deleting 6 object(s)
+ui().selectArea(-4014, 5012, 381, 7809, 0)
+ui().editCopy()
+# INFO: 6 object(s) copied with delta = (4.600, 0.000), 1 rows 1 cols 0.000 row spacing 0.000 col spacing
+ui().selectPoint(300, 4150, 0)
+ui().selectPoint(-100, 6100, 0)
+ui().winRuler()
+# INFO: Ruler (-0.10000 6.00000) (0.40000 6.00000) length = 0.50000
+ui().selectArea(615, 5070, 4701, 7787, 0)
+ui().editMove()
+# INFO: 6 object(s) moved by delta = (-0.500, 0.000)
+ui().selectPoint(250, 5700, 0)
+ui().winDeleteRulers()
+# INFO: Setting selection mode to PARTIAL
+ui().selectPoint(-1900, 7350, 0)
+ui().editStretch()
+# INFO: Stretching edge(s) of segment by (0.050, -0.400)
+# INFO: 1 Edge(s) stretched by (0.050, -0.400)
+ui().selectPoint(-1900, 5350, 0)
+ui().editStretch()
+# INFO: Stretching edge(s) of segment by (0.000, 0.350)
+# INFO: 1 Edge(s) stretched by (0.000, 0.350)
+ui().selectPoint(950, 7350, 0)
+ui().selectPoint(2150, 7350, 0)
+ui().editStretch()
+# INFO: Stretching edge(s) of segment by (0.050, -0.400)
+# INFO: 1 Edge(s) stretched by (0.050, -0.400)
+ui().selectPoint(2100, 5350, 0)
+ui().editStretch()
+# INFO: Stretching edge(s) of segment by (0.000, 0.350)
+# INFO: 1 Edge(s) stretched by (0.000, 0.350)
+ui().selectPoint(650, 5550, 0)
+# INFO: Set current layer to p_plus drawing
+# INFO: Creating rectangle on layer p_plus at (-3.900, 4.750) (4.300, 8.000)
+ui().winRuler()
+# INFO: Aborting current command.
+ui().winRuler()
+# INFO: Ruler (-2.40000 7.20000) (-2.40000 7.50000) length = 0.30000
+ui().winRuler()
+# INFO: Ruler (-3.70000 6.30000) (-4.00000 6.30000) length = 0.30000
+ui().winRuler()
+# INFO: Ruler (4.00000 6.30000) (4.30000 6.30000) length = 0.30000
+ui().winRuler()
+# INFO: Ruler (1.60000 5.45000) (1.60000 5.15000) length = 0.30000
+ui().selectPoint(4000, 5100, 0)
+# INFO: Setting selection mode to FULL
+ui().selectPoint(4000, 5100, 0)
+ui().selectPoint(4000, 5150, 0)
+ui().editCut()
+# INFO: Deleting 1 object(s)
+# INFO: Set current layer to n_plus drawing
+ui().editUndo()
+# INFO: Undoing last delete
+ui().selectPoint(-3900, 5450, 0)
+# INFO: Setting selection mode to PARTIAL
+ui().selectPoint(-3900, 5450, 0)
+ui().editStretch()
+# INFO: Stretching edge(s) of segment by (-0.100, 0.000)
+# INFO: 1 Edge(s) stretched by (-0.100, 0.000)
+ui().selectArea(-2016, 7967, -2005, 7990, 0)
+ui().editStretch()
+# WARNING: Please select something first.
+ui().selectPoint(-1950, 7950, 0)
+ui().editStretch()
+# INFO: Stretching edge(s) of segment by (0.050, -0.500)
+# INFO: 1 Edge(s) stretched by (0.050, -0.500)
+ui().selectPoint(950, 4750, 0)
+ui().editStretch()
+# INFO: Stretching edge(s) of segment by (0.000, 0.400)
+# INFO: 1 Edge(s) stretched by (0.000, 0.400)
+# INFO: Creating rectangle on layer n_plus at (4.900, 7.350) (6.100, 8.400)
+ui().winDeleteRulers()
+ui().winRuler()
+# INFO: Ruler (-0.35000 2.55000) (-0.65000 2.55000) length = 0.30000
+ui().selectPoint(-350, 1850, 0)
+ui().winRuler()
+# INFO: Ruler (-0.35000 1.85000) (-0.65000 1.85000) length = 0.30000
+ui().winDeleteRulers()
+ui().winRuler()
+# INFO: Ruler (-0.35000 2.65000) (-0.65000 2.65000) length = 0.30000
+ui().winRuler()
+# INFO: Ruler (0.90000 3.50000) (0.90000 3.80000) length = 0.30000
+ui().winRuler()
+# INFO: Ruler (2.25000 2.65000) (2.55000 2.65000) length = 0.30000
+ui().winRuler()
+# INFO: Ruler (1.00000 1.00000) (1.00000 0.70000) length = 0.30000
+# INFO: Creating rectangle on layer n_plus at (-0.700, 0.700) (2.550, 3.800)
+ui().selectPoint(-700, 1850, 0)
+ui().editStretch()
+# INFO: Stretching edge(s) of segment by (0.050, 0.000)
+# INFO: 1 Edge(s) stretched by (0.050, 0.000)
+# INFO: Setting selection mode to FULL
+ui().winDeleteRulers()
+ui().selectPoint(5500, 3750, 0)
+# INFO: Setting selection mode to PARTIAL
+# INFO: Set current layer to poly drawing
+ui().editCreateRect()
+# INFO: Aborting current command.
+ui().selectPoint(-3750, 6450, 0)
+ui().editCreateRect()
+# INFO: Creating rectangle on layer poly at (-3.750, 1.650) (-3.450, 6.450)
+ui().selectArea(-3428, 1625, 4190, 8164, 0)
+# INFO: Creating rectangle on layer poly at (-3.750, 1.750) (-0.250, 1.950)
+ui().selectPoint(-3600, 1650, 0)
+ui().editStretch()
+# INFO: Stretching edge(s) of segment by (0.050, 0.100)
+# INFO: 1 Edge(s) stretched by (0.050, 0.100)
+ui().selectPoint(-3750, 3600, 0)
+ui().editStretch()
+# INFO: Stretching edge(s) of segment by (0.050, 0.000)
+# INFO: 1 Edge(s) stretched by (0.050, 0.000)
+ui().selectPoint(-3750, 1850, 0)
+ui().editStretch()
+# INFO: Stretching edge(s) of segment by (0.050, 0.000)
+# INFO: 1 Edge(s) stretched by (0.050, 0.000)
+ui().selectPoint(-2400, 1950, 0)
+ui().editStretch()
+# INFO: Stretching edge(s) of segment by (0.000, 0.050)
+# INFO: 1 Edge(s) stretched by (0.000, 0.050)
+ui().selectPoint(-2500, 1400, 0)
+ui().editCreateRect()
+# INFO: Creating rectangle on layer poly at (3.750, 2.500) (4.000, 6.450)
+ui().editCreateRect()
+# INFO: Creating rectangle on layer poly at (1.950, 2.500) (4.050, 2.700)
+ui().selectPoint(2900, 2700, 0)
+ui().editStretch()
+# INFO: Stretching edge(s) of segment by (0.050, 0.050)
+# INFO: 1 Edge(s) stretched by (0.050, 0.050)
+ui().selectPoint(4050, 2650, 0)
+ui().editStretch()
+# INFO: Stretching edge(s) of segment by (-0.050, 0.000)
+# INFO: 1 Edge(s) stretched by (-0.050, 0.000)
+ui().fileSaveCell()
+# INFO: Saving cellview C:/glade6_win64/ese_2024/glade/ese/nand2/layout
+ui().selectPoint(-4250, 6150, 0)
+ui().editStretch()
+# INFO: Stretching edge(s) of segment by (-0.300, -0.050)
+# INFO: 1 Edge(s) stretched by (-0.300, -0.050)
+ui().selectPoint(9100, 5950, 0)
+ui().fileSaveCell()
+# INFO: Saving cellview C:/glade6_win64/ese_2024/glade/ese/nand2/layout
+# INFO: Glade received a closeEvent, shutting down...
+# INFO: Saving local preferences file gladerc.xml

@@ -1,0 +1,136 @@
+LTspice 24.0.9 for Windows
+Circuit: * C:\glade6_win64\Progetto\LTSpice\Folded_cascode_tb.asc
+Start Time: Thu Jul  4 17:50:10 2024
+Ignoring BSIM parameter XL
+Ignoring BSIM parameter XW
+Ignoring BSIM parameter XL
+Ignoring BSIM parameter XW
+solver = Normal
+Maximum thread count: 8
+tnom = 27
+temp = 27
+method = modified trap
+WARNING: Node X1:VG10 is floating.
+
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Warning: Pd = 0 is less than W.
+Warning: Ps = 0 is less than W.
+Direct Newton iteration for .op point succeeded.
+Semiconductor Device Operating Points:
+                        --- BSIM3 MOSFETS ---
+Name:      m:x1:14     m:x1:13     m:x1:12     m:x1:1      m:x1:2
+Model:    n_psm025    n_psm025    n_psm025    n_psm025    n_psm025
+Id:        1.10e-05    3.49e-05    1.22e-05    1.06e-05    1.06e-05
+Vgs:       6.51e-01    6.51e-01    6.51e-01    7.32e-01    7.32e-01
+Vds:       6.51e-01    1.61e+00    1.83e+00    1.94e+00    1.94e+00
+Vbs:       0.00e+00    0.00e+00    0.00e+00   -5.18e-01   -5.18e-01
+Vth:       4.21e-01    4.17e-01    4.12e-01    5.22e-01    5.22e-01
+Vdsat:     1.92e-01    1.94e-01    1.98e-01    1.91e-01    1.91e-01
+Gm:        9.15e-05    2.83e-04    9.73e-05    9.21e-05    9.21e-05
+Gds:       1.21e-06    2.83e-06    9.60e-07    8.83e-07    8.83e-07
+Gmb        1.92e-05    6.06e-05    2.04e-05    1.61e-05    1.61e-05
+Cbd:       0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
+Cbs:       0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
+Cgsov:     1.23e-15    3.70e-15    1.23e-15    1.23e-15    1.23e-15
+Cgdov:     1.23e-15    3.70e-15    1.23e-15    1.23e-15    1.23e-15
+Cgbov:     1.00e-18    1.00e-18    1.00e-18    1.00e-18    1.00e-18
+dQgdVgb:   1.32e-14    3.97e-14    1.32e-14    1.30e-14    1.30e-14
+dQgdVdb:  -1.18e-15   -3.52e-15   -1.17e-15   -1.17e-15   -1.17e-15
+dQgdVsb:  -1.15e-14   -3.45e-14   -1.15e-14   -1.13e-14   -1.13e-14
+dQddVgb:  -5.65e-15   -1.69e-14   -5.64e-15   -5.64e-15   -5.64e-15
+dQddVdb:   1.20e-15    3.60e-15    1.20e-15    1.20e-15    1.20e-15
+dQddVsb:   5.51e-15    1.66e-14    5.51e-15    5.28e-15    5.28e-15
+dQbdVgb:  -1.94e-15   -5.85e-15   -1.95e-15   -1.73e-15   -1.73e-15
+dQbdVdb:   1.23e-18    1.51e-17    5.14e-18    3.03e-18    3.03e-18
+dQbdVsb:  -7.84e-16   -2.35e-15   -7.86e-16   -4.73e-16   -4.73e-16
+
+Name:      m:x1:5      m:x1:8      m:x1:9      m:x1:10     m:x1:11
+Model:    n_psm025    n_psm025    n_psm025    n_psm025    n_psm025
+Id:        2.12e-05    2.20e-11    2.20e-11    1.75e-11    1.75e-11
+Vgs:       6.51e-01    4.06e-01    4.06e-01    0.00e+00    0.00e+00
+Vds:       5.18e-01    4.06e-01    4.06e-01    2.06e+00    2.06e+00
+Vbs:       0.00e+00   -2.06e+00   -2.06e+00    0.00e+00    0.00e+00
+Vth:       4.24e-01    7.67e-01    7.67e-01    4.10e-01    4.10e-01
+Vdsat:     1.89e-01    4.32e-02    4.32e-02    3.70e-02    3.70e-02
+Gm:        1.78e-04    6.04e-10    6.04e-10    4.11e-10    4.11e-10
+Gds:       2.80e-06    6.06e-12    6.06e-12    4.16e-12    4.16e-12
+Gmb        3.79e-05    8.02e-11    8.02e-11    1.19e-10    1.19e-10
+Cbd:       0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
+Cbs:       0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
+Cgsov:     2.46e-15    1.23e-15    1.23e-15    1.23e-15    1.23e-15
+Cgdov:     2.46e-15    1.23e-15    1.23e-15    1.23e-15    1.23e-15
+Cgbov:     1.00e-18    1.00e-18    1.00e-18    1.00e-18    1.00e-18
+dQgdVgb:   2.65e-14    4.10e-15    4.10e-15    5.78e-15    5.78e-15
+dQgdVdb:  -2.37e-15   -1.23e-15   -1.23e-15   -1.23e-15   -1.23e-15
+dQgdVsb:  -2.30e-14   -1.23e-15   -1.23e-15   -1.23e-15   -1.23e-15
+dQddVgb:  -1.13e-14   -1.23e-15   -1.23e-15   -1.23e-15   -1.23e-15
+dQddVdb:   2.42e-15    1.23e-15    1.23e-15    1.23e-15    1.23e-15
+dQddVsb:   1.11e-14    6.87e-20    6.87e-20    1.01e-19    1.01e-19
+dQbdVgb:  -3.87e-15   -1.64e-15   -1.64e-15   -3.32e-15   -3.32e-15
+dQbdVdb:  -7.08e-18    4.20e-24    4.20e-24    1.57e-22    1.57e-22
+dQbdVsb:  -1.57e-15    5.99e-20    5.99e-20    8.25e-20    8.25e-20
+
+Name:      m:x1:15     m:x1:16     m:x1:3      m:x1:4      m:x1:6
+Model:    p_psm025    p_psm025    p_psm025    p_psm025    p_psm025
+Id:       -3.49e-05   -1.22e-05   -1.06e-05   -1.06e-05   -2.20e-11
+Vgs:      -8.95e-01   -6.75e-01   -6.75e-01   -6.75e-01   -8.56e-01
+Vds:      -8.95e-01   -6.75e-01   -3.85e-02   -3.85e-02   -5.79e-08
+Vbs:       0.00e+00    0.00e+00    0.00e+00    0.00e+00    3.85e-02
+Vth:      -5.67e-01   -5.67e-01   -5.68e-01   -5.68e-01   -5.80e-01
+Vdsat:    -2.97e-01   -1.34e-01   -1.34e-01   -1.34e-01   -2.61e-01
+Gm:        1.88e-04    1.48e-04    8.89e-05    8.89e-05    7.57e-11
+Gds:       1.39e-06    7.19e-07    2.27e-04    2.27e-04    3.80e-04
+Gmb        6.14e-05    4.82e-05    3.00e-05    3.00e-05    2.68e-11
+Cbd:       0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
+Cbs:       0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
+Cgsov:     8.23e-15    1.72e-14    3.44e-14    3.44e-14    1.72e-14
+Cgdov:     8.23e-15    1.72e-14    3.44e-14    3.44e-14    1.72e-14
+Cgbov:     9.36e-19    9.36e-19    9.36e-19    9.36e-19    9.36e-19
+dQgdVgb:   7.36e-14    1.50e-13    3.44e-13    3.44e-13    1.85e-13
+dQgdVdb:  -8.25e-15   -1.72e-14   -1.05e-13   -1.05e-13   -8.46e-14
+dQgdVsb:  -6.10e-14   -1.22e-13   -2.31e-13   -2.31e-13   -1.01e-13
+dQddVgb:  -3.22e-14   -6.50e-14   -1.65e-13   -1.65e-13   -9.22e-14
+dQddVdb:   8.25e-15    1.72e-14    9.01e-14    9.01e-14    7.01e-14
+dQddVsb:   3.16e-14    6.32e-14    1.18e-13    1.18e-13    4.57e-14
+dQbdVgb:  -9.19e-15   -1.99e-14   -1.37e-14   -1.37e-14   -6.31e-16
+dQbdVdb:  -1.22e-17   -1.23e-17   -4.04e-14   -4.04e-14   -3.85e-14
+dQbdVsb:  -1.04e-14   -2.20e-14   -3.85e-14   -3.85e-14   -8.13e-15
+
+Name:      m:x1:7
+Model:    p_psm025
+Id:       -2.20e-11
+Vgs:      -8.56e-01
+Vds:      -5.79e-08
+Vbs:       3.85e-02
+Vth:      -5.80e-01
+Vdsat:    -2.61e-01
+Gm:        7.57e-11
+Gds:       3.80e-04
+Gmb        2.68e-11
+Cbd:       0.00e+00
+Cbs:       0.00e+00
+Cgsov:     1.72e-14
+Cgdov:     1.72e-14
+Cgbov:     9.36e-19
+dQgdVgb:   1.85e-13
+dQgdVdb:  -8.46e-14
+dQgdVsb:  -1.01e-13
+dQddVgb:  -9.22e-14
+dQddVdb:   7.01e-14
+dQddVsb:   4.57e-14
+dQbdVgb:  -6.31e-16
+dQbdVdb:  -3.85e-14
+dQbdVsb:  -8.13e-15
+
+
+Total elapsed time: 0.120 seconds.
+
