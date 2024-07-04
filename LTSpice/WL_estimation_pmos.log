@@ -1,6 +1,6 @@
 LTspice 24.0.9 for Windows
 Circuit: * C:\glade6_win64\Progetto\LTSpice\WL_estimation_pmos.asc
-Start Time: Thu Jul  4 16:16:01 2024
+Start Time: Thu Jul  4 20:31:20 2024
 Ignoring BSIM parameter XL
 Ignoring BSIM parameter XW
 solver = Normal
@@ -13,7 +13,7 @@ Warning: Ps = 0 is less than W.
 Direct Newton iteration for .op point succeeded.
 Semiconductor Device Operating Points:
                         --- BSIM3 MOSFETS ---
-Name:        m1
+Name:        m16
 Model:    p_psm025
 Id:       -1.10e-05
 Vgs:      -7.48e-01
@@ -40,5 +40,5 @@ dQbdVdb:  -7.64e-18
 dQbdVsb:  -9.35e-15
 
 
-Total elapsed time: 0.093 seconds.
+Total elapsed time: 0.094 seconds.
 
