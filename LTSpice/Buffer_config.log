@@ -1,6 +1,6 @@
 LTspice 24.0.9 for Windows
 Circuit: * C:\glade6_win64\Progetto\LTSpice\Buffer_config.asc
-Start Time: Thu Jul  4 21:33:47 2024
+Start Time: Fri Jul  5 10:47:25 2024
 Ignoring BSIM parameter XL
 Ignoring BSIM parameter XW
 Ignoring BSIM parameter XL
@@ -22,5 +22,5 @@ Warning: Pd = 0 is less than W.
 Warning: Ps = 0 is less than W.
 Warning: Pd = 0 is less than W.
 Warning: Ps = 0 is less than W.
-Total elapsed time: 0.201 seconds.
+Total elapsed time: 0.229 seconds.
 
